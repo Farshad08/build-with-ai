@@ -1,16 +1,25 @@
-# Project Name
+# NexaMind
 
 ## Problem Statement
-Explain clearly what problem your project is solving.
+Farmers cannot quickly identify crop diseases and often take wrong actions, leading to crop loss and reduced yield.
 
 ## Project Description
-Describe your solution, how it works, and what makes it useful.
+AgroAI is an AI-powered smart agriculture application designed to assist farmers in identifying crop diseases in real time and receiving actionable farming guidance. Farmers often struggle to diagnose plant diseases early, which leads to reduced crop yield and financial loss. This system addresses that problem by providing instant, accurate, and easy-to-understand solutions using artificial intelligence.
+
+The application allows users to upload an image of a crop leaf, which is analyzed using a deep learning model trained on plant disease datasets. The system detects the disease, provides a confidence score, and classifies the severity level. Based on the detected condition, the application generates tailored recommendations including treatment methods, pesticide or fertilizer suggestions, and preventive measures.
+
+To enhance usability, AgroAI integrates additional intelligent features such as weather-based risk analysis and multilingual support, enabling farmers to interact with the system in their local language. The goal is to make advanced agricultural insights accessible, affordable, and easy to use, even for non-technical users..
 
 ---
 
 ## Google AI Usage
-### Tools / Models Used
-- 
+Antigravity used
+python
+flask
+opencv
+tensorflow
+numpy
+
 
 ### How Google AI Was Used
 Explain clearly how AI is integrated into your project.
